@@ -15,7 +15,6 @@ using namespace std;
 
 void DoSomethingInteresting(Context &ctx)
 {
-    // Here we are in a co-routine, running in a worker-thread.
     using std::chrono::system_clock;
 
     const string token("1973982233:AAHM-L0nj6ZJUvJKfTyqfmHSgp4HNr8lN2o");
